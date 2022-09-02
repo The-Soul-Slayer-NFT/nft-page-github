@@ -1,7 +1,8 @@
 {
-  "name": "the-weirdos-starter-code",
+  "name": "nft-collection-page-project",
   "version": "0.1.0",
   "private": true,
+  "hompage": "https://The-Soul-Slayer-NFT.github.io/nft-page-github.git",
   "dependencies": {
     "@fontsource/akaya-telivigala": "^4.5.7",
     "@fontsource/bungee": "^4.5.8",
@@ -26,7 +27,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
